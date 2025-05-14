@@ -33,7 +33,7 @@ void loop() {
   delay(1500);
 }
 
-void bink() {
+void blink() {
   display.clearDisplay();
   // left eye closed
   display.fillRoundRect(20, 38, 40, 4, 2, SSD1306_WHITE); 
